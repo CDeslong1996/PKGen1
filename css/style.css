@@ -1,0 +1,10 @@
+html,
+body {
+  background: white;
+}
+
+canvas {
+  
+  display: block;
+  image-rendering: pixelated;
+}
