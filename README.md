@@ -2,6 +2,8 @@
 
 # Run
 
-`npm install`
+`npm install electron`
+
+`npm install electron-reload`
 
 `npm run start`
