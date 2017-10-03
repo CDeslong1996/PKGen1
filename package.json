@@ -1,0 +1,19 @@
+{
+  "name": "pkgen1",
+  "version": "1.0.0",
+  "description": "PK Gen 1 app for practice",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CDeslong1996/PKGen1.git"
+  },
+  "author": "Chris Deslongchamp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CDeslong1996/PKGen1/issues"
+  },
+  "homepage": "https://github.com/CDeslong1996/PKGen1#readme"
+}
