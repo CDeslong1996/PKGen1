@@ -17,7 +17,7 @@ class Player {
 
         this.party[];
 
-        this.selectedItem;
+        this.selectedItem = "";
 
         this.box[];
 

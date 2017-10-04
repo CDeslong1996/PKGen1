@@ -259,6 +259,56 @@
         "EFFECT": ""
     },
 
+    "TACKLE" : {
+        "TYPE": "NORMAL",
+        "CATEGORY": "PHY",
+        "POWER": 35,
+        "ACCURACY": 95,
+        "BASE_PP": 35,
+        "DESCRIPTION" : "",
+        "EFFECT": ""
+    },
+
+    "GROWL" : {
+        "TYPE": "NORMAL",
+        "CATEGORY": "NONE",
+        "POWER": 0,
+        "ACCURACY": 100,
+        "BASE_PP": 40,
+        "DESCRIPTION" : "LOWERS THE TARGET'S ATTACK BY 1 STAGE",
+        "EFFECT": "ENEMY ATTACK - 1"
+    },
+
+    "LEER" : {
+        "TYPE": "NORMAL",
+        "CATEGORY": "NONE",
+        "POWER": 0,
+        "ACCURACY": 100,
+        "BASE_PP": 30,
+        "DESCRIPTION" : "LOWERS THE TARGET'S DEFENSE BY 1 STAGE",
+        "EFFECT": "ENEMY DEFENSE - 1"
+    },
+
+    "TAIL WHIP" : {
+        "TYPE": "NORMAL",
+        "CATEGORY": "NONE",
+        "POWER": 0,
+        "ACCURACY": 100,
+        "BASE_PP": 30,
+        "DESCRIPTION" : "LOWERS THE TARGET'S DEFENSE BY 1 STAGE",
+        "EFFECT": "ENEMY DEFENSE - 1"
+    },
+
+    "SCRATCH" : {
+        "TYPE": "NORMAL",
+        "CATEGORY": "PHY",
+        "POWER": 40,
+        "ACCURACY": 100,
+        "BASE_PP": 35,
+        "DESCRIPTION" : "",
+        "EFFECT": ""
+    },
+
     "WARP" : {
         "TYPE": "NORMAL",
         "CATEGORY": "PHY",
