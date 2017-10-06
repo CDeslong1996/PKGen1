@@ -1,71 +1,76 @@
 module.exports = {
-        "CHARMANDER" : {
-            "TYPE": "FIRE",
-            "DEXNUM": 4,
-            "HP": 39,
-            "ATK": 52,
-            "DEF": 43,
-            "SPD": 65,
-            "SPE": 50,
-            "EVOLVE" : 16,
-            "EXP" : 65,
-            "EXPTYPE" : 3,
-            "MOVES": {
-                "SCRATCH" : 1,
-                "GROWL" : 1,
-                "EMBER" : 9,
-                "LEER" : 15,
-                "RAGE" : 22,
-                "SLASH" : 30,
-                "FLAMETHROWER" : 38,
-                "FIRE SPIN" : 46
-            }
-        },
-    
-        "SQUIRTLE" : {
-            "TYPE": "WATER",
-            "DEX NUM": 7,
-            "HP": 44,
-            "ATK": 48,
-            "DEF": 65,
-            "SPD": 43,
-            "SPE": 66,
-            "EVOLVE" : 16,
-            "EXP" : 66,
-            "EXP TYPE" : 3,
-            "MOVES": {
-                "TACKLE" : 1,
-                "TAIL WHIP" : 1,
-                "BUBBLE" : 8,
-                "WATER GUN" : 15,
-                "BITE" : 22,
-                "WITHDRAW" :28,
-                "SKULL BASH" : 35,
-                "HYDRO PUMP" : 42
-            }
-        },
-        
-        "BULBASAUR" : {
-            "TYPE": "GRASS",
-            "DEXNUM": 1,
-            "HP": 45,
-            "ATK": 49,
-            "DEF": 49,
-            "SPD": 45,
-            "SPE": 65,
-            "EVOLVE" : 16,
-            "EXP" : 64,
-            "EXPTYPE" : 3,
-            "MOVES": {
-                "TACKLE" : 1,
-                "GROWL" : 1,
-                "LEECH SEED" : 7,
-                "VINE WHIP" : 13,
-                "POISON POWDER" : 20,
-                "RAZOR LEAF" :27,
-                "GROWTH" : 34,
-                "SLEEP POWDER" : 41,
-                "SOLAR BEAM": 48
+    "CHARMANDER": {
+        "TYPE1": "FIRE",
+        "TYPE2": "",
+        "DEXNUM": 4,
+        "HP": 39,
+        "ATK": 52,
+        "DEF": 43,
+        "SPD": 65,
+        "SPE": 50,
+        "EVOLVE": 16,
+        "EXP": 65,
+        "EXPTYPE": 3,
+        "MOVES": {
+            "SCRATCH": 1,
+            "GROWL": 1,
+            "EMBER": 9,
+            "LEER": 15,
+            "RAGE": 22,
+            "SLASH": 30,
+            "FLAMETHROWER": 38,
+            "FIRE SPIN": 46
+        }
+    },
+
+    "SQUIRTLE": {
+        "TYPE1": "WATER",
+        "TYPE2": "",
+        "DEX NUM": 7,
+        "HP": 44,
+        "ATK": 48,
+        "DEF": 65,
+        "SPD": 43,
+        "SPE": 66,
+        "EVOLVE": 16,
+        "EXP": 66,
+        "EXP TYPE": 3,
+        "GENDER" : 87,
+        "MOVES": {
+            "TACKLE": 1,
+            "TAIL WHIP": 1,
+            "BUBBLE": 8,
+            "WATER GUN": 15,
+            "BITE": 22,
+            "WITHDRAW": 28,
+            "SKULL BASH": 35,
+            "HYDRO PUMP": 42
+        }
+    },
+
+    "BULBASAUR": {
+        "TYPE1": "GRASS",
+        "TYPE2": "POISON",
+        "DEXNUM": 1,
+        "HP": 45,
+        "ATK": 49,
+        "DEF": 49,
+        "SPD": 45,
+        "SPE": 65,
+        "EVOLVE": 16,
+        "EXP": 64,
+        "EXPTYPE": 3,
+        "GENDER": 87,
+        "MOVES": {
+            "TACKLE": 1,
+            "GROWL": 1,
+            "LEECH SEED": 7,
+            "VINE WHIP": 13,
+            "POISON POWDER": 20,
+            "RAZOR LEAF": 27,
+            "GROWTH": 34,
+            "SLEEP POWDER": 41,
+            "SOLAR BEAM": 48
             }
         }
     }
