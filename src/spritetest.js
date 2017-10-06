@@ -1,5 +1,6 @@
 var img;  // Declare variable 'img'.
-const pk = require('./pk.json');
+const pk = require('./src/pkjson.js');
+const Player = require('./src/player');
 
 var player = new Player('Bob', 'male');
 player.party.push(pk["CHARMANDER"]);
@@ -8,8 +9,8 @@ player.party.push(pk["BULBASAUR"]);
 
 function setup() {
   createCanvas(320, 288);
-  img = loadImage("./assets/4.png");  // Load the image
-  img2 = loadImage("./assets/back/" + player.party[0].DEXNUM + ".png");
+  img = loadImage("./assets/" + player.party[0].DEXNUM + ".png");  // Load the image
+  img2 = loadImage("./assets/back/" + player.party[1].DEXNUM + ".png");
 }
 
 function draw() {

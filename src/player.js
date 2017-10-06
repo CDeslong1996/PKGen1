@@ -1,7 +1,7 @@
 
 class Player {
 
-    constructor(name, gender) {
+    constructor(n, gender) {
         if (gender == 'male') {
             this.isBoy = true;
         }
@@ -9,19 +9,20 @@ class Player {
             this.isBoy = false;
         }
 
-        this.name = name;
+        this.name = n;
 
-        this.badges[false,false,false,false,false,false,false,false];
+        this.badges = [false,false,false,false,false,false,false,false];
 
         this.money = 3000;
 
-        this.party[];
+        this.party = [];
 
         this.selectedItem = "";
 
-        this.box[];
+        this.box = [];
 
     }
 
 }
 
+module.exports = Player;
