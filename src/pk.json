@@ -1,7 +1,7 @@
 {
     "CHARMANDER" : {
         "TYPE": "FIRE",
-        "DEX NUM": 4,
+        "DEXNUM": 4,
         "HP": 39,
         "ATK": 52,
         "DEF": 43,
@@ -9,7 +9,7 @@
         "SPE": 50,
         "EVOLVE" : 16,
         "EXP" : 65,
-        "EXP TYPE" : 3,
+        "EXPTYPE" : 3,
         "MOVES": {
             "SCRATCH" : 1,
             "GROWL" : 1,
@@ -47,7 +47,7 @@
     
     "BULBASAUR" : {
         "TYPE": "GRASS",
-        "DEX NUM": 1,
+        "DEXNUM": 1,
         "HP": 45,
         "ATK": 49,
         "DEF": 49,
@@ -55,7 +55,7 @@
         "SPE": 65,
         "EVOLVE" : 16,
         "EXP" : 64,
-        "EXP TYPE" : 3,
+        "EXPTYPE" : 3,
         "MOVES": {
             "TACKLE" : 1,
             "GROWL" : 1,
