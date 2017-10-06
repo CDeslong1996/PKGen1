@@ -6,8 +6,8 @@ const Player = require('./src/player');
 const Pk = require('./src/pk');
 
 var player = new Player('Bob', 'male');
-player.party.push(new Pk(pk["CHARMANDER"],100,'male'));
-player.party.push(new Pk(pk["BULBASAUR"],100,'female'));
+player.party.push(new Pk(pk["CHARMANDER"],5,false,false));
+player.party.push(new Pk(pk["BULBASAUR"],5,false,false));
 
 let magnification = 4;
 
